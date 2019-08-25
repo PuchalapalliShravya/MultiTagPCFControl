@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="MultiTagControl" constructor="MultiTag" version="0.0.1" display-name-key="MultiTag" description-key="Store Multiple Values separated by a comma in the field" control-type="standard">
+    <property name="TagValue" display-name-key="Field" description-key="Contains tagged values" of-type-group="text" usage="bound" required="true" />
+    <type-group name="text">
+      <type>SingleLine.Text</type>
+      <type>SingleLine.TextArea</type>
+      <type>Multiple</type>
+    </type-group>
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/MultiTag.css" order="1" />
+    </resources>  
+  </control>
+</manifest>
