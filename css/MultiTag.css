@@ -1,0 +1,43 @@
+.closeTag {
+	display: block;
+    font-size: 12px;
+	font-weight: bold;
+    height: 14px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+	color: darkgrey;
+}
+.closeTag:hover {
+    cursor:pointer;
+}
+.customTag{
+	display:inherit;
+	background-clip: padding-box;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333333;
+    cursor: default;
+    line-height: 13px;
+    margin: 6px 0 3px 5px;
+    padding: 3px 20px 4px 5px;
+    position: relative;
+	font-size:14px;
+}
+#inputTag {
+    width:98%;
+}
+.tagContent {
+    word-break: break-word;
+}
+.hideBlock {
+    display: none;
+}
+.displayBlock {
+    display: inline-block;
+}
+.innerDiv {
+	margin-bottom: 2%;
+	width:98%;
+}
